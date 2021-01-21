@@ -1,0 +1,37 @@
+{
+  "name": "twiths_lookbook",
+  "version": "1.0.0",
+  "description": "A place where all edu profiles can be stored and accessed.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twiths/twiths_lookbook.git"
+  },
+  "keywords": [],
+  "author": "Twith Tech Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Twiths/twiths_lookbook/issues"
+  },
+  "homepage": "https://github.com/Twiths/twiths_lookbook#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "email": "^0.2.6",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "joi": "^14.3.1",
+    "nodemon": "^2.0.4"
+  }
+}
