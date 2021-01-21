@@ -519,3 +519,14 @@
 
 ## Contributing
 You can help improve the code base of the application where neccessary by raising an issue or opening a pull request.
+=======
+
+> A place where all twiths profiles can be stored and accessed.
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- JSON web token (JWT)
+- Bcrypt
+
